@@ -16,8 +16,6 @@ guestbook.Views = guestbook.Views || {};
             this.render();
 
             this.listenTo(this.collection, 'add', this.tambahKomentar);
-            this.listenTo(this.collection, 'reset', this.tambahSemuaKomentar);
-
             this.collection.fetch();
         },
         render: function(){
@@ -46,10 +44,6 @@ guestbook.Views = guestbook.Views || {};
             var view = new guestbook.Views.KomentarView({ model: komentar });
             this.$('tbody').append(view.render().el);
         },
-
-        tambahSemuaKomentar: function () {
-            this.collection.each(this.tambahKomentar, this);
-        }
 
     });
 

@@ -20,3 +20,6 @@ Now that you have all of the pieces, try out:
 
 `grunt server` to create a development server, and
 `grunt` to test and build the application.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/arufian/yeoman-practice-guestbook/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+

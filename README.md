@@ -1,5 +1,7 @@
 Guestbook app using Yeoman
 =========================
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/arufian/yeoman-practice-guestbook.svg)](https://greenkeeper.io/)
 A yeoman practice using Backbone and backbone-generator to create guestbook application.
 This repository is a reference to [Yeoman, workflow untuk pembuatan aplikasi web modern](http://wp.me/p49lhS-1s) blog.
 To check it out, clone the repository, then:
